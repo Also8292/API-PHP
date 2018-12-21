@@ -3,7 +3,7 @@
 header('Content-Type: application/json');
 
 try {
-    $connexion = new PDO('mysql:host=localhost;dbname=alious_db;charset=utf8','alious','OnQf2bUe7m');
+    $connexion = new PDO('mysql:host=localhost;dbname=api_db;charset=utf8','root','');
     $retour["success"] = true;
     $retour["message"] = "Connexion à la base de données réussie";
 }
